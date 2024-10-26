@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/background.jpg') no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content1 {
+    margin-right: 50px;
+    width: 650px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.72);
+    transform: translateY(100px);
+    border-radius: 30px;
+    display: block;
+    transition: opacity 0.5s ease;
+}
+
+.content2 {
+    margin-right: 50px;
+    width: 650px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.72);
+    transform: translateY(100px);
+    border-radius: 30px;
+    display: none;
+    transition: opacity 0.5s ease;
+    position:absolute;
+}
+
+
+.SignIn-Form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.SignUp-Form{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input.login, input.register{
+    width: 380px;
+    margin: 30px auto;
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+	border-radius: 20px;
+    color: #fff;
+    background-color:#143694;
+    border-color: transparent;
+	font-family: 'Raleway', sans-serif;
+	transition:all 0.5s ease-in-out;
+	cursor:pointer;
+}
+
+input.login:hover, input.register:hover {
+	color: #fff;
+    background-color:#1938c0;
+}
+
+input#tai_khoan, input#mat_khau, input#ho_ten, input#so_dien_thoai, input#email{
+    width:335px;
+	height:50px;
+	padding:0 15px;
+	color:#fff;
+	font-size:17px;
+	font-weight:200;
+	background-color:transparent;
+	border-bottom:5px solid #fff;
+	border-top-color:transparent;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	font-family: 'Raleway', sans-serif;
+	margin:0 auto 20px;
+	display:block;
+	outline:none;
+	cursor:pointer;
+}
+
+input#tai_khoan:focus, input#mat_khau:focus, input#ho_ten:focus, input#so_dien_thoai:focus, input#email:focus, input#tai_khoan:hover, input#mat_khau:hover, input#ho_ten:hover, input#so_dien_thoai:hover, input#email:hover{
+	border-bottom:5px solid #2042db;
+}
+
+p.SignUp{
+    color:#fff;
+	padding: 0 220px;
+}
+
+p.SignIn{
+    color:#fff;
+	padding: 0 210px;
+}
+
+p.SignUp a, p.SignIn a{
+	color:#fff;
+	text-decoration:none;
+}
+
+h1.or{
+    color:#fff;
+    font-size:17px;
+    width:335px;
+    padding:0 15px;
+	font-weight:200;
+    font-family: 'Raleway', sans-serif;
+	margin:0 auto 20px;
+	display:block;
+}
+
+.image-container {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+img#gmail{
+    border-radius: 100%;
+}
+
+img#facebook {
+    height: 58px;
+}
